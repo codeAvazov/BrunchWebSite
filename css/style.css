@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Krona One', sans-serif;
+}
+
+.header {
+  background: url(https://hightech.fm/wp-content/uploads/2018/10/53787.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+}
+
+.header .view {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.header .view section {
+  background-color: rgba(255, 255, 255, 0.55);
+  text-align: center;
+  padding: 5rem;
+  display: inline-block;
+}
+
+.header .view section .title {
+  font-family: 'Aladin', cursive;
+  line-height: 0.3;
+}
+
+.header .view section .text {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #b65836;
+}
+
+.header .view section .btn {
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+}
+
+.main .sec1 {
+  background-color: #263238;
+}
+
+.main .sec1 .row .col-lg-6 .title {
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 400;
+  color: #fff;
+}
+
+.main .sec1 .row .col-lg-6 .text {
+  font-size: 12px;
+  color: grey;
+}
+
+.main .sec2 {
+  background-color: #d6d2d2;
+}
+
+.main .sec2 .cricles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .sec2 .cricles .cricle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #263238;
+  margin-right: 2px;
+}
+
+.main .sec2 .title {
+  color: #263238;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.main .sec2 .text {
+  color: gray;
+  font-size: 10px;
+}
+
+.main .sec3 {
+  background: url(https://hightech.fm/wp-content/uploads/2018/10/53787.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.main .sec3 .container:first-child .row {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.main .sec3 .container:first-child .row .col .title {
+  font-family: 'Aladin', cursive;
+  line-height: 0.3;
+  color: #000;
+}
+
+.main .sec3 .container:first-child .row .col .text {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #b65836;
+}
+
+.main .sec3 .container:first-child .row .col-md-3 {
+  text-align: center;
+}
+
+.main .sec3 .container:first-child .row .col-md-3 .title {
+  font-size: 14px;
+  color: #000;
+  padding-top: 1rem;
+}
+
+.main .sec3 .container:first-child .row .col-md-3 .text {
+  color: #4e4e4e;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.main .sec3 .container:first-child .row .col-md-3 .price {
+  font-size: 12px;
+}
+
+.main .sec3 .container-fluid.con1 {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.main .sec3 .container-fluid.con1 .row .col-md-6 .title {
+  font-size: 16px;
+}
+
+.main .sec3 .container-fluid.con1 .row .col-md-6 .text {
+  font-size: 14px;
+  color: grey;
+}
+
+.main .sec3 .container-fluid.con1 .row .col-md-6 .cricles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .sec3 .container-fluid.con1 .row .col-md-6 .cricles .cricle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #263238;
+  margin-right: 2px;
+}
+
+.main .sec3 .container-fluid.con1 .row .col-md-6 .links .link {
+  color: #000;
+  font-size: 12px;
+  margin: 0 7px;
+}
+
+.main .sec3 .container-fluid.con2 {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 10rem 0;
+  padding-top: 2.5rem;
+}
+
+.main .sec3 .container-fluid.con2 .row .col .title {
+  font-family: 'Aladin', cursive;
+  line-height: 0.3;
+}
+
+.main .sec3 .container-fluid.con2 .row .col .text {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #b65836;
+}
+
+.main .sec3 .container-fluid.con2 .row .col-md-6 .brand {
+  width: 150px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 780px) {
+  .main .sec3 .container-fluid.con2 .row .col-md-6 .brand {
+    width: 150px;
+    height: 30px;
+  }
+}
+
+.main .sec3 .container-fluid.con2 .row .col-md-6 .body {
+  padding-top: 20px;
+}
+
+.main .sec3 .container-fluid.con2 .row .col-md-6 .body .title {
+  font-size: 14px;
+  color: #000;
+}
+
+.main .sec3 .container-fluid.con2 .row .col-md-6 .body .text {
+  font-size: 12px;
+  color: #5c5c5c;
+}
+
+.main .sec3 .container-fluid.con2 .row .col-md-6 .body .text strong {
+  color: #000;
+}
+
+.main .sec3 .container-fluid.con3 {
+  background-color: #263238;
+  margin-top: 30rem;
+  margin-bottom: 10rem;
+}
+
+.main .sec3 .container-fluid.con3 .row .col .title {
+  font-family: 'Aladin', cursive;
+  line-height: 0.3;
+  color: #fff;
+}
+
+.main .sec3 .container-fluid.con3 .row .col-md-3 label {
+  font-size: 12px;
+  color: #fff;
+}
+
+.main .sec3 .container-fluid.con3 .row .col-md-3 input, .main .sec3 .container-fluid.con3 .row .col-md-3 select {
+  background-color: transparent;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
